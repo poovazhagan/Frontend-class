@@ -1,0 +1,23 @@
+/* h3 {
+    color: aqua;
+} */
+p {
+    color: rgb(13, 89, 230);
+}
+
+.data {
+    color: black;
+}
+
+#details {
+    color: blueviolet;
+}
+
+* {
+    font-size: medium;
+}
+
+.data,
+#details {
+    color: brown;
+}

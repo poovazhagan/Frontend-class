@@ -1,0 +1,20 @@
+p {
+    color: aquamarine;
+}
+
+.class {
+    color: black;
+}
+
+#id {
+    color: blueviolet;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.class,
+#id {
+    color: brown;
+}
