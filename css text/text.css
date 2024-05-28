@@ -1,0 +1,89 @@
+.color {
+    color: cornflowerblue;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
+
+.para {
+    text-align-last: right;
+}
+
+.direction {
+    direction: rtl;
+
+}
+
+.indent {
+    text-indent: 2cm;
+}
+
+.inches {
+    text-indent: 2in;
+}
+
+.percentage {
+    text-indent: 30%;
+}
+
+.space {
+    letter-spacing: normal;
+}
+
+.back {
+    letter-spacing: 15px;
+}
+
+.normal {
+    word-spacing: normal;
+}
+
+.increas {
+    word-spacing: 30pt;
+}
+
+.white {
+    white-space: nowrap;
+}
+
+.space {
+    white-space: pre;
+}
+
+.height {
+    line-height: 2.0;
+}
+
+.cass {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.effect {
+    text-shadow: 2px 2px rgb(252, 36, 36);
+}
+
+.Line {
+    text-decoration-line: overline;
+    text-decoration-color: aqua;
+}
+
+.dot {
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+
+}
+
+.circle {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 5px;
+}
