@@ -87,3 +87,33 @@
     text-decoration-style: dashed;
     text-decoration-thickness: 5px;
 }
+
+.border {
+    border-style: solid;
+    border-color: blue;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-left: 30px;
+    background-color: antiquewhite;
+}
+
+.double {
+    border-top: aqua;
+    border-top-style: dotted;
+    border-top-width: 10px;
+    border-right: red;
+    border-left-style: dashed;
+    border-right-style: double;
+    border-bottom-style: groove;
+    border-bottom-width: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+strong{background-color: cadetblue;
+    border-style: groove;
+    border-color: rgba(0, 0, 255, 0.819);
+    text-decoration: line-through;
+    
+    
+
+}
