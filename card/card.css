@@ -1,0 +1,18 @@
+.data {
+    /* height: 360px; */
+    width: 266px;
+    border: 2px solid black;
+}
+
+.heading {
+    text-align: center;
+
+}
+
+.btn {
+    border-radius: 20px;
+    margin-left: 70px;
+    background-color: black;
+    color: white;
+    border: none;
+}

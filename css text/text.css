@@ -109,11 +109,13 @@
     padding: 15px;
     margin: 20px;
 }
-strong{background-color: cadetblue;
+
+strong {
+    background-color: cadetblue;
     border-style: groove;
     border-color: rgba(0, 0, 255, 0.819);
     text-decoration: line-through;
-    
-    
+
+
 
 }
