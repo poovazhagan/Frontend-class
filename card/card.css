@@ -1,18 +1,38 @@
 .data {
     /* height: 360px; */
-    width: 266px;
+    width: 230px;
     border: 2px solid black;
-}
-
-.heading {
     text-align: center;
-
+    padding: 20PX;
 }
+
+.insta {
+    background-color: rgb(222, 77, 106);
+    color: white;
+}
+
 
 .btn {
     border-radius: 20px;
-    margin-left: 70px;
     background-color: black;
     color: white;
     border: none;
+    /* height: 35px; */
+    width: 189px;
+    padding: 10px;
+}
+
+.bt {
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(176, 26, 134);
+    border: none;
+    /* height: 35px; */
+    width: 189px;
+    padding: 10px;
+
+}
+
+strong {
+    font-size: 28px;
 }
