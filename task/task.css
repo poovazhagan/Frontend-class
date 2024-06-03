@@ -1,0 +1,38 @@
+.border {
+    margin: auto;
+    /* height:700px ; */
+    width: 40%;
+    border: 1px solid cornflowerblue;
+    padding: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.btn {
+    margin-left: 35%;
+    color: white;
+    background-color: rgb(235, 109, 5, 0.918);
+    height: 40px;
+    width: 140px;
+    padding: 2px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn2 {
+    margin-left: 36%;
+    color: white;
+    background-color: rgb(235, 109, 5, 0.918);
+    height: 30px;
+    width: 120px;
+    padding: 2px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
