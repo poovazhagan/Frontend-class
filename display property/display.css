@@ -1,0 +1,86 @@
+.border {
+    height: 350px;
+    width: 400px;
+    border: 1px solid cornflowerblue;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid salmon;
+}
+
+.box1 {
+    background-color: aqua;
+
+}
+
+.box2 {
+    background-color: aquamarine;
+    visibility: hidden;
+}
+
+.box3 {
+    background-color: aliceblue;
+}
+
+.border1 {
+    height: 350px;
+    width: 400px;
+    border: 1px solid cornflowerblue;
+}
+
+.box4 {
+    background-color: rgb(255, 0, 183);
+
+}
+
+.box5 {
+    background-color: rgb(143, 212, 189);
+    display: none;
+}
+
+.box6 {
+    background-color: rgb(112, 171, 222);
+}
+
+.backimage {
+    height: 500px;
+    width: 500px;
+    border: 1px solid red;
+    color: aliceblue;
+    background: url(../image/ph.avif), url(../image/images.png);
+
+}
+
+
+
+.card1 {
+    height: 400px;
+    width: 400px;
+    border: 2px solid olivedrab;
+    background-image: conic-gradient(rgb(223, 75, 75), rgb(221, 221, 19), rgb(7, 180, 7), rgb(115, 55, 20));
+
+}
+
+.card2 {
+    height: 400px;
+    width: 400px;
+    border: 2px solid olivedrab;
+    background-image: linear-gradient(blue, orange, pink);
+
+}
+
+.card3 {
+    height: 400px;
+    width: 400px;
+    border: 2px solid olivedrab;
+    background-image: radial-gradient(black, yellow, green);
+}
+
+.card4 {
+    height: 400px;
+    width: 400px;
+    border: 2px solid olivedrab;
+    background-image: repeating-linear-gradient(blue 1%, rgb(0, 255, 110) 17%, rgb(255, 0, 0) 16%)
+}
