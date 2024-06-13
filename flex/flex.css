@@ -1,0 +1,97 @@
+.content {
+    /* height:800px; */
+    width: 600px;
+    border: 2px solid rgb(224, 2, 2);
+    display: flex;
+
+    padding: 10px;
+
+}
+
+.box {
+    height: 120px;
+    width: 150px;
+    border: 1px solid gray;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    column-gap: 15px;
+
+}
+
+.coloum {
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rev {
+    flex-direction: column-reverse;
+
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowwrap {
+    flex-wrap: nowrap;
+}
+
+.rapreverse {
+    flex-wrap: wrap-reverse;
+}
+
+.center {
+    justify-content: center;
+    height: 150px;
+    width: 900px;
+    border: 2px solid rgb(224, 2, 2);
+    display: flex;
+
+}
+
+.start {
+    justify-content: start;
+    height: 150px;
+    width: 900px;
+    border: 2px solid rgb(224, 2, 2);
+    display: flex;
+
+}
+
+.end {
+    justify-content: end;
+    height: 150px;
+    width: 900px;
+    border: 2px solid rgb(224, 2, 2);
+    display: flex;
+
+}
+
+.between {
+    justify-content: space-between;
+    height: 150px;
+    width: 900px;
+    border: 2px solid rgb(224, 2, 2);
+    display: flex;
+
+}
+
+.around {
+    justify-content: space-around;
+    height: 150px;
+    width: 900px;
+    border: 2px solid rgb(224, 2, 2);
+    display: flex;
+
+}
+
+.every {
+    justify-content: space-evenly;
+    height: 150px;
+    width: 900px;
+    border: 2px solid rgb(224, 2, 2);
+    display: flex;
+
+}
