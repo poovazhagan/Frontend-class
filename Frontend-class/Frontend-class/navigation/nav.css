@@ -1,0 +1,17 @@
+.header-con{
+    /* height: 150px; */
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    height: 70px;
+    width: 100px;
+}

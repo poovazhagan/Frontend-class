@@ -1,0 +1,33 @@
+.border {
+    height: 150;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    background-color: rgb(105, 238, 238);
+    align-items: center;
+    gap: 270px;
+    padding: 35px;
+    border: none;
+
+
+}
+
+.img {
+    border-radius: 50px;
+}
+
+.data {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.btn {
+    height: 28px;
+    width: 70px;
+
+    background-color: black;
+    color: aliceblue;
+
+}
