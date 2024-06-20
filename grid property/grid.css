@@ -1,0 +1,19 @@
+.data {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+
+}
+
+.box {
+    /* height: 200px; */
+    border: 1px solid rgb(76, 0, 255);
+    padding: 15px;
+}
+
+.line {
+    display: grid;
+    grid-template-columns: 200px 30% 1fr;
+
+}
