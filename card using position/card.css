@@ -1,0 +1,52 @@
+.main-container {
+    height: 450px;
+    width: 500px;
+    border: 1px solid red;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+
+.border {
+    /* height: 500px; */
+    width: 550px;
+    border: 1px solid green;
+    text-align: center;
+}
+
+
+
+.btn {
+    position: relative;
+    top: 30px;
+    padding: 4px;
+    border-radius: 14px;
+    background-color: moccasin;
+    border: none;
+}
+
+h1 {
+    line-height: 1.5;
+    position: relative;
+    top: 30px;
+}
+
+.line {
+    text-align: left;
+    position: relative;
+    top: 30px;
+    left: 55px;
+
+}
+
+.btn2 {
+    height: 35px;
+    width: 100px;
+    padding: 5px;
+    background: green;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    top: 40px;
+}
