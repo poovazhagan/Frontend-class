@@ -3,15 +3,23 @@
     width: 500px;
     border: 1px solid red;
     background-color: #ffffff;
-    margin: auto;
+    position: relative;
+    left: 18px;
+    top: -11px;
+    border: none;
 }
 
 
+
+
 .border {
-    /* height: 500px; */
+    height: 522px;
     width: 550px;
     border: 1px solid green;
     text-align: center;
+    background: #f3f3f9;
+    border: none;
+    margin: auto;
 }
 
 
@@ -19,9 +27,9 @@
 .btn {
     position: relative;
     top: 30px;
-    padding: 4px;
+    padding: 7px;
     border-radius: 14px;
-    background-color: moccasin;
+    background-color: #e7c11599;
     border: none;
 }
 
@@ -49,4 +57,30 @@ h1 {
     border-radius: 2px;
     position: relative;
     top: 40px;
+}
+
+.head1 {
+    border: 1px solid;
+    padding: 10px;
+    height: 10px;
+    width: 100px;
+    position: relative;
+    left: 0%;
+    border: none;
+
+
+}
+
+.head2 {
+    border: 1px solid;
+    padding: 7px;
+    height: 17px;
+    width: 150px;
+    position: relative;
+    left: 384px;
+    top: -25px;
+    border: none;
+    color: #1cc71c9c;
+    font-size: 13px;
+    font-weight: 600;
 }

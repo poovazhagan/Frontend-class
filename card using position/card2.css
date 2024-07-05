@@ -1,0 +1,26 @@
+.border {
+    height: 284px;
+    width: 471px;
+    border: 1px solid;
+    padding: 15px;
+
+
+}
+
+.btn {
+    height: 51px;
+    width: 305px;
+    border-radius: 9px;
+    padding: 3px;
+    position: relative;
+    left: 65px;
+}
+
+.border2 {
+    height: 284px;
+    width: 471px;
+    border: 1px solid;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 500;
+}
