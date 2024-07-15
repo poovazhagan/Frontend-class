@@ -1,0 +1,12 @@
+@import "./sassver.scss";
+
+@mixin par1 {
+    color: pink;
+}
+
+.para {
+    @include par1;
+    // color: green;
+    font-size: 20px;
+    // color: $color;
+}
