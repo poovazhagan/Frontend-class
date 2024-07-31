@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // Implicit Conversion
+
+        let result;
+        result = "1" + 2;
+        console.log(result, "-", typeof (result));
+
+        result = "3" + true;
+        console.log(result, "-", typeof (result));
+    </script>
+    <script>
+
+
+        // Explicit Conversion     
+        // convert string to number
+        console.log("Explicit Conversion");
+        num = Number("7");
+        console.log(num, "-", typeof (num));
+        // convert boolean to string
+        str = String(true);
+        console.log(str, "-", typeof (str));
+
+        //  String toUpperCase
+        let text1 = "welcome";
+        let text2 = text1.toUpperCase();
+        console.log(text2);
+        // string to lower case
+        let text3 = text1.toLowerCase();
+        console.log(text3);
+        // String concat
+        var my_str = "welcome"
+        var concat = " to OA"
+        console.log(my_str.concat(concat));
+        // JavaScript String trim()
+        let txt1 = "            ocean           ";
+        let StartTrim = txt1.trim();
+        console.log(StartTrim, "Start Trim");
+
+        // JavaScript String  start trim()
+        let txt4 = "            ocean           ";
+        console.log(txt4.trimStart(), "Start Trim");
+
+        // JavaScript String  end trim()
+
+        let txt2 = "            ocean           ";
+        let trimEnd = txt2.trimEnd();
+        console.log(trimEnd, "trim End");
+
+        // JavaScript String repeat()
+
+        let Stringrepeat = " data ";
+        let repeat = Stringrepeat.repeat(2);
+        console.log(repeat, "repeat");
+
+        // Replacing String Content
+
+        let replaceStr = "Replacing String Content"
+        let replace = replaceStr.replace("Content", "Method")
+        console.log(replace, "replace");
+
+        // JavaScript String slice()
+
+        let sliceStr = "JavaScript String slice"
+        let slice = sliceStr.slice(10, 18)
+        console.log(slice, "slice");
+        // JavaScript String substring()
+
+        let substringStr = "JavaScript String substring"
+        let substring = substringStr.substring(0, 18)
+        console.log(substring, "substring");
+        // JavaScript String substr()
+
+        let substrStr = "JavaScript String substr"
+        let substr = substrStr.substr(7)
+        console.log(substr, "substr");
+
+
+
+
+
+    </script>
+</body>
+
+</html>
