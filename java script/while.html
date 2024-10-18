@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+      // 1) print all the numbers from 1-15.
+
+      let i=1;
+      let count = 15;
+      while(i<=count){
+        console.log(i);
+        i++
+
+      }
+
+
+           
+
+
+      // 2) print odd numbers from 6-29.
+
+      let i=6;
+      while (i>=6  &&  i<=29) {
+        if (i%2 !==0) {
+          console.log(i);
+        }
+        i++
+      }
+
+            
+
+
+
+      // 3) print even numbers from 20-40.
+
+       let i=20;
+      while (i>=20  &&  i<=40) {
+        if (i%2 ===0) {
+          console.log(i);
+        }
+        i++
+      }
+
+
+            // ####################################
+
+
+    //   4) iterate through all numbers from 1-45. Print the following
+    // a) for divide of 3 print ".  ".
+    // b) for divide of 5 print ".  ".
+    // c) for divide of 3 and 5 print ".  ". 
+
+
+    let i=1;
+      while(i<=45){
+        if(i%3===0 && i%5===0){
+          console.log(i,"is divisible by 3 & 5"); 
+        }
+        else if(i%3===0){
+          console.log(i,"is divisible by 3");
+          
+        }
+        else if(i%5===0){
+          console.log(i,"is divisible by 5");
+          
+        }
+      i++
+      }
+
+      
+   
+
+      // 7) calculate the sum of all numbers from 1 to 100
+
+      let sum = 0;
+      let i = 1;
+
+      while ( i <= 100 ) {
+        sum = sum + i;
+        i++
+
+      }
+      console.log(sum)
+
+       
+
+
+    </script>
+</body>
+</html>
