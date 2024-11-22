@@ -4,82 +4,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
+<style>
+    .error-message {
+        color: rgb(145, 23, 23);
+        font-size: 18px;
+    }
+
+    .errors-message {
+        color: rgb(2, 56, 57);
+        font-size: 18px;
+    }
+
+    .button1 {
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+    }
+</style>
 
 <body>
-    <!-- STUDENT REGISTRACTION FORM -->
-    <h2 style="color: blue;">STUDENT REGISTRACTION FORM</h2><BR><BR>
-    <label>First Name</label>
-    <input type="text" id="name-input"><span>(max 30 characters a-z and A-Z)</span>
-    <span class="error-message" id="name-error"></span><br /><br />
-    <span class="success-message" id="name-success"></span><br /><br />
-    <label>Last Name</label>
-    <input type="text" id="last-input"><span>(max 30 characters a-z and A-Z)</span> <br><br>
-    <label>DATE OF BIRTH</label>
-    <input type="date" id="date-input"><br><br>
-    <label>EMAIL ID</label>
-    <input type="text" id="email-input"><br><br>
-    <label>MOBILE NUMBER</label>
-    <input type="text" id="number-input"><span>(10 digt number)</span><br><br>
-    <!-- <label>Gender</label>
-    <input type="radio" name="gender"> Male
-    <input type="radio" name="gender"> female
-    <input type="radio" name="gender"> others<br><br>
-    <label>ADDRESS</label>
-    <textarea rows="5" cols="50"></textarea><br><br>
-    <label>city</label>
-    <input type="text"><span>(max 30 characters a-z and A-Z)</span><br><br>
-    <label>PIN CODE</label>
-    <input type="text"><span>(6 digit number)</span><br><br>
-    <label> STATE</label>
-    <select>
-        <option>TAMIL NADU</option>
-        <option>KERAKA</option>
-        <option>AP</option>
-    </select><br><br>
-    <label>COUNTRY</label>
-    <select>
-        <option>india</option>
-        <option>china</option>
-        <option>russia</option>
-    </select><br><br>
-    <label>HOBBIES</label>
-    <input type="checkbox">drawing
-    <input type="checkbox">singing
-    <input type="checkbox">sketching
-    <input type="checkbox">dancing<br><br>
-    <label>COURSES APPLIED FOR</label>
-    <input type="radio" name="Courses"> BCA
-    <input type="radio" name="Courses"> B.SC
-    <input type="radio" name="Courses"> B.COM<br><br> -->
-    <input type="submit" onclick="submit()">
-    <input type="reset"><br><br>
-
-    <!-- file uplode -->
-    <!-- <input type="file"><br><br>
-    <img src="./bird-colorful-logo-gradient-vector_343694-1365.avif">
-    <input type="hidden">
-    <input type="range" min="30" max="500"> -->
-    <script>
-        function submit() {
-            var namedata=document.getElementById('name-input').value
-            if (namedata == '') {
-          document.getElementById('name-error').textContent = 'Enter valid name'
-       
-    }else{
-        document.getElementById('name-success').textContent = 'Entered correct name'
-        document.getElementById('name-error').textContent = ''
-    }
-    }
-       
-        
-        
-    </script>
 
 
+    <div style="width: 50%;margin: auto; background-color: rgb(146, 145, 145);padding: 15px;">
+        <h1 style="text-align: center;">STUDENT REGISTRATION FORM</h1>
+
+        <label><b>FIRST NAME:</b></label>
+        <input type="text" id="name-input">
+        <span class="error-message" id="name-error"></span>
+        <span class="errors-message" id="name-success"></span><br><br>
+
+        <label><b>LAST NAME:</b></label>
+        <input type="text" id="names-input">
+        <span class="error-message" id="names-error"></span>
+        <span class="errors-message" id="names-success"></span><br><br>
+
+        <label><b>MOBILE NO:</b></label>
+        <input type="text" id="mobile-input">
+        <span class="error-message" id="mobile-error"></span>
+        <span class="errors-message" id="mobile-success"></span><br><br>
+
+        <label><b>AGE:</b></label>
+        <input type="text" id="age-input">
+        <span class="error-message" id="age-error"></span>
+        <span class="errors-message" id="age-success"></span><br><br>
+
+        <label><b>EMAIL:</b></label>
+        <input type="text" id="email-input">
+        <span class="error-message" id="email-error"></span>
+        <span class="errors-message" id="email-success"></span><br><br>
+
+        <label><b>GENDER:</b></label>
+        <input type="radio" name="gender">MALE
+        <input type="radio" name="gender">FEMALE<br><br>
+
+        <label><b>ADDRESS:</b></label>
+        <input type="text" id="address-input">
+        <span class="error-message" id="address-error"></span>
+        <span class="errors-message" id="address-success"></span><br><br>
+
+        <label><b>CITY:</b></label>
+        <input type="text" id="city-input">
+        <span class="error-message" id="city-error"></span>
+        <span class="errors-message" id="city-success"></span><br><br>
+
+        <label><b>STATE:</b></label>
+        <input type="text" id="state-input">
+        <span class="error-message" id="state-error"></span>
+        <span class="errors-message" id="state-success"></span><br><br>
+
+        <label><b>PINCODE:</b></label>
+        <input type="text" id="pincode-input">
+        <span class="error-message" id="pincode-error"></span>
+        <span class="errors-message" id="pincode-success"></span><br><br>
+
+        <label><b>COUNTRY:</b></label>
+        <input type="text" id="country-input">
+        <span class="error-message" id="country-error"></span>
+        <span class="errors-message" id="country-success"></span><br><br>
+
+        <label><b>HOBBIES:</b></label>
+        <input type="checkbox"> Singing
+        <input type="checkbox"> Dancing
+        <input type="checkbox"> Drawing
+        <input type="checkbox"> Others
+        <input type="text"> <br><br>
+
+        <label><b>COURSES APPLIED FOR:</b></label>
+        <input type="radio" name="COURSES APPLIED FOR">MCA
+        <input type="radio" name="COURSES APPLIED FOR">MSC
+        <input type="radio" name="COURSES APPLIED FOR">M-Tech
+        <input type="radio" name="COURSES APPLIED FOR">MSW
+        <br><br>
 
 
+        <button type="button" class="button1" onclick="submitValidate()">SUBMIT</button>
+
+        <script>
+            function submitValidate() {
+                var nameData = document.getElementById('name-input').value
+                var namesData = document.getElementById('names-input').value
+                var mobileData = document.getElementById('mobile-input').value
+                var ageData = document.getElementById('age-input').value
+                var emailData = document.getElementById('email-input').value
+                var addressData = document.getElementById('address-input').value
+                var cityData = document.getElementById('city-input').value
+                var stateData = document.getElementById('state-input').value
+                var pinData = document.getElementById('pincode-input').value
+                var counData = document.getElementById('country-input').value
+
+                if (nameData == '') {
+                    document.getElementById('name-error').innerHTML = 'Enter Valid Name'
+                } else {
+                    document.getElementById('name-error').innerHTML = ''
+                    document.getElementById('name-success').innerHTML = 'Entered Correct Name'
+                }
+
+                if (namesData == '') {
+                    document.getElementById('names-error').innerHTML = 'Enter Valid Name'
+                } else {
+                    document.getElementById('names-error').innerHTML = ''
+                    document.getElementById('names-success').innerHTML = 'Entered Correct Name'
+                }
+
+                if (mobileData == '') {
+                    document.getElementById('mobile-error').innerHTML = 'Enter Valid Number'
+                } else {
+                    document.getElementById('mobile-error').innerHTML = ''
+                    document.getElementById('mobile-success').innerHTML = 'Entered Number'
+                }
+
+                if (ageData == '') {
+                    document.getElementById('age-error').innerHTML = 'Enter Valid Age'
+                } else {
+                    document.getElementById('age-error').innerHTML = ''
+                    document.getElementById('age-success').innerHTML = 'Entered Age'
+                }
+
+                if (emailData == '') {
+                    document.getElementById('email-error').innerHTML = 'Enter Valid Email'
+                } else {
+                    document.getElementById('email-error').innerHTML = ''
+                    document.getElementById('email-success').innerHTML = 'Entered Email'
+                }
+
+                if (addressData == '') {
+                    document.getElementById('address-error').innerHTML = 'Enter Valid Address'
+                } else {
+                    document.getElementById('address-error').innerHTML = ''
+                    document.getElementById('address-success').innerHTML = 'Entered Address'
+                }
+
+                if (cityData == '') {
+                    document.getElementById('city-error').innerHTML = 'Enter Valid City'
+                } else {
+                    document.getElementById('city-error').innerHTML = ''
+                    document.getElementById('city-success').innerHTML = 'Entered City'
+                }
+
+                if (stateData == '') {
+                    document.getElementById('state-error').innerHTML = 'Enter Valid State'
+                } else {
+                    document.getElementById('state-error').innerHTML = ''
+                    document.getElementById('state-success').innerHTML = 'Entered State'
+                }
+
+                if (pinData == '') {
+                    document.getElementById('pincode-error').innerHTML = 'Enter Valid Pincode'
+                } else {
+                    document.getElementById('pincode-error').innerHTML = ''
+                    document.getElementById('pincode-success').innerHTML = 'Entered Pincode'
+                }
+
+                if (counData == '') {
+                    document.getElementById('country-error').innerHTML = 'Enter Valid Country'
+                } else {
+                    document.getElementById('country-error').innerHTML = ''
+                    document.getElementById('country-success').innerHTML = 'Entered Country'
+                }
+            }
+        </script>
 
 </body>
 
